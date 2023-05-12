@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Grouping Tags</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: dimgray;
+                margin: 0;
+            }
+            header {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+            }
+            nav {
+                background-color: #4d4c4c;
+                padding: 3px;
+                box-shadow: 5px 3px 7px 1PX rgba(0, 0, 0, 0.493);
+            }
+            nav > a {
+                text-decoration: none;
+                color: white;
+                font-weight: bold;
+                margin-right: 30px;
+            }
+            nav > a:hover {
+                text-decoration: underline;
+            }
+            main {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 10px 0;
+                box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            }
+            article {
+                background-color: lightgray;
+                padding: 5px;
+            }
+            article > aside {
+                background-color: #808080;
+            }
+            footer {
+                background-color: black;
+                color: white;
+                text-align: center;
+                padding: 4px;
+                margin: 0;
+            }
+            footer > p {
+                margin: 0;
+            }
+            div#bola {
+                width: 100px;
+                height: 100px;
+                margin: auto;
+                margin-top: 10px;
+                background-color: white;
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Meu Site</h1>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+
+            </nav>
+        </header>
+        <main>
+            <section id="assuntos">
+                <p>Esportes, Políticas e Tecnologias</p>
+            </section>
+            <section id="noticias">
+                <article>
+                    <h2>Notícia Sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur labore cumque soluta omnis ipsum, necessitatibus repellat culpa quisquam error. Animi quibusdam, sed cupiditate minus aspernatur architecto? Ab, repellendus sint.lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit commodi, voluptates vitae magni ab quaerat enim suscipit rerum placeat iusto velit laboriosam et, maiores, fuga deleniti tenetur libero harum alias!</p>
+                    <aside>
+                        <p>Artigo escrito por José da Silva</p>
+                    </aside>
+                </article>
+                <article>
+
+                </article>
+            </section>
+        </main>
+        <footer>
+            <p>Desenvolvido pelo CursoemVideo</p>
+        </footer>
+        <div id="bola"></div>
+    </body>
+</html>
