@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <title>Boletim</title>
+        <style>
+            body {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 400px;
+                text-align: center;
+            }
+            caption {
+                font-size: 1.3em;
+                font-weight: bold;
+                padding: 10px;
+            }
+            tr.cinza {
+                background-color:#858484;
+                color: white;
+            }
+            th.cinza2 {
+                text-align: left;
+            }
+            th, td {
+                border: 1px solid black;
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <caption>Boletim Escolar</caption>
+                <tr class="cinza">
+                    <th rowspan="2" scope="col">Área</th>
+                    <th rowspan="2" scope="col">Disciplinas</th>
+                    <th colspan="2" scope="colgroup">Notas</th>
+                    <th rowspan="2" scope="col">Média</th>
+                </tr>
+                <tr class="cinza">
+                    <th scope="col">nota1</th>
+                    <th scope="col">nota2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="3" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td>8.0</td>
+                    <td>9.0</td>
+                    <td>8.5</td>
+                </tr>
+                <tr>
+                    <td>Física</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>Química</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                </tr>
+                <tr class="cinza">
+                    <th colspan="4" class="cinza2" scope="row">Média de Exatas</th>
+                    <td>7.8</td>
+                </tr>
+                <tr>
+                    <th rowspan="4" scope="rowgroup">Humanas</th>
+                    <td>História</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                    <td>7.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>Filosofia</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                </tr>
+                <tr>
+                    <td>Sociologia</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                    <td>8.0</td>
+                </tr>
+                <tr class="cinza">
+                    <th colspan="4" class="cinza2" scope="row">Média de Humanas</th>
+                    <td>7.75</td>
+                </tr>
+                <tr>
+                    <th rowspan="2" scope="rowgroup">Linguagens</th>
+                    <td>Português</td>
+                    <td>7.5</td>
+                    <td>7.5</td>
+                    <td>7.5</td>
+                </tr>
+                <tr>
+                    <td>Inglês</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                    <td>6.0</td>
+                </tr>
+                <tr class="cinza">
+                    <th colspan="4" class="cinza2" scope="row">Média de Linguagens</th>
+                    <td>6.75</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
